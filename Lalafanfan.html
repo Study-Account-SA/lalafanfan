@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lalafanfan</title>
+    <link rel="stylesheet" href="./Lalafanfan_files/styles.css">
+</head>
+
+<body>
+    <header>
+        <nav class="header">
+            <figure>
+                <a href="http://127.0.0.1:5500/index.html#"><img src="./Lalafanfan_files/logo.jpeg" alt="" class="logo"></a>
+            </figure>
+            <article class="menu">
+                <a href="http://127.0.0.1:5500/index.html#" class="link">About Lala ducks</a>
+                <a href="http://127.0.0.1:5500/index.html#" class="link">Milka</a>
+                <a href="http://127.0.0.1:5500/index.html#" class="link">Zefirka</a>
+                <a href="http://127.0.0.1:5500/index.html#" class="link">Stesha</a>
+            </article>
+        </nav>
+    </header>
+    <main class="main">
+        <section>
+            <h3>Milka</h3>
+            <p>Milka is yellow duck. Milka love strawberry berrys. <br> Milkas's favorite Sanrio type is My Melody. </p>
+            <img src="./Lalafanfan_files/lalafanfan.png" alt="" class="lalafanfan img">
+        </section>
+
+        <section>
+            <h3>Zefirka</h3>
+            <p>Zefirka is white duck. Zefirka like sanrio type Kuromi.</p>
+            <img src="./Lalafanfan_files/Zefirka.jpg" alt="" class="zefirka img">
+        </section>
+
+        <section>
+            <h3>Stesha</h3>
+            <p>Stesha is to yellow duck. Stesha's favorite sanrio type is Keroppi. <br>Stesha like blueberry berrys.</p>
+            <img src="./Lalafanfan_files/stesha.jpg" alt="" class="stesha img">
+        </section>
+        
+    </main>
+    <section class="info">
+        <div> <h3>Information</h3>
+            <p>ducks can be different colors. Ducks can also have phones and rooms </p>
+            <img src="./Lalafanfan_files/ducks.jpg" alt="" class="ducks"></div>
+</section>
+
+
+
+    <footer><p></p><h3>Information about Sofiia as developer</h3><p></p>
+    <p>(c)Sofiia</p>
+    </footer>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+</body></html>

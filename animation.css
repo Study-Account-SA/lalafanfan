@@ -1,0 +1,28 @@
+@keyframes opacityAnimation {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+@keyframes translateAnimation{
+    0%{
+        transform: translateX(0px);
+    }
+    25%{
+        transform: translateX(50px);
+    }
+    50%{
+        transform: translateX(-100px);
+    }
+    75%{
+        transform: translateY(50px);
+    }
+    100%{
+        transform: translateY(-50px);
+    }
+}

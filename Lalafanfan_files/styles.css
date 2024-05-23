@@ -1,0 +1,85 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+body{
+    background-color:#F8F9FB;
+}
+
+.container {
+    width: 1240px;
+}
+
+.header {
+    background-color:#B99274;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2em;
+}
+
+.logo {
+    border-radius: 50%;
+    width: 10%;
+    flex-grow: 1;
+}
+
+.menu {
+    display: flex;
+    flex-grow: 3;
+    align-items: center;
+}
+.link{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 1px rgb(205, 202, 202);
+}
+.link:hover {
+    color: rgb(76, 78, 76);
+    cursor: pointer;
+}
+.main {
+    display: flex;
+
+}
+.img{
+    width: 30%;
+}
+.p{
+    border-bottom: 1px solid #eee;
+    font-size: 30px;
+}
+.lalafanfan{
+    border-radius: 50%;
+    width: 300px;
+    flex-grow: 1;
+}
+.stesha{
+    border-radius: 50%;
+    width: 300px;
+    flex-grow: 1;
+}
+.zefirka{
+    border-radius: 50%;
+    width: 300px;
+    flex-grow: 1;
+
+}
+footer{
+    height: 100px;
+    background-color: #8A9B6E;
+    text-align: center;
+    
+}
+footer p{
+    padding: 5px 0px;
+}
+.ducks{
+    border-radius: 50%;
+    width: 300px;
+    flex-grow: 1;
+    height: 300px;
+}
+.info{
+    display: flex;
+    justify-content: center;
+}
